@@ -339,12 +339,25 @@ a.social_btn:hover { color: #bd9213; }
 }*/
 
 #tooplate_menu ul ul {
-	display:none;
-	position:absolute;
-	top:100%;
-	left:0;
-	background:#000;
-	padding:0;
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background: #000;
+	background: #3d281b;
+
+
+	background: -webkit-linear-gradient(#3d281b, #21160e); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#3d281b, #21160e); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#3d281b, #21160e); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to top, #201c1b, #21160e); /* Standard syntax */
+	background: linear-gradient(to top, #201c1b, #32240b); /* Standard syntax */
+
+	border-bottom-left-radius: 2em;
+	border-bottom-right-radius: 2em;
+	border-top-right-radius: 2em;
+
+	padding: 0;
 }
 
 #tooplate_menu ul ul li {
